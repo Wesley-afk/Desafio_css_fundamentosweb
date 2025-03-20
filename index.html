@@ -10,33 +10,99 @@
 <style>
     .cabeçalho {
         text-align: center;
-        position: relative; /**/
+        position: relative;
+        /**/
     }
 
-    .cabeçalho img {
+    .cabeçalho img {        
         width: 80%;
         height: 50%;
         display: inline-block;
     }
 
-    .cabeçalho p b{
+    .cabeçalho p b {
         display: inline-block;
         position: absolute;
         top: 35%;
         left: 32%;
         color: white;
         font-size: 400%;
-        font-size: 3vw; /*ajusta o nescessário ao redimencionar a tela.*/
+        font-size: 3vw;
+        /*ajusta o nescessário ao redimencionar a tela.*/
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
-    .subtitulo{
+    .subtitulo {
+        position: absolute;
         color: black;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: white;
-        margin:15px;
-        background-color: blueviolet; 
-        
+        margin: 15px;
+        background-color: rgba(158, 139, 177, 0.7);
+        border: 2px solid rgb(177, 192, 203), 139, 177;
+        border-bottom: 2px solid white;
+        margin-top: -20%;
+        left: 35%;
+    }
+
+    .atributos ul {
+        position: absolute;
+        list-style: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin-top: -40%;
+        margin-left: 72%;
+        padding: 10px;
+        display: flex;
+        gap: 25px;
+    }
+
+    .atributos a {
+        text-decoration: none;
+        background-color: rgba(172, 154, 189, 0.7);
+        padding: 12%;
+    }
+
+    .corpo {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: rgba(172, 154, 189, 0.7);
+        margin: 10%;
+        margin-top: -1%;
+    }
+
+    .corpo1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: rgba(172, 154, 189, 0.7);
+        margin: 10%;
+        margin-top: -1%;
+    }
+
+    .corpo2 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: rgba(172, 154, 189, 0.7);
+        margin: 10%;
+        margin-top: -1%;
+    }
+
+    .corpo header {
+        margin: 1%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        background-color: rebeccapurple;
+    }
+
+    .corpo1 header {
+        margin: 1%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        background-color: rebeccapurple;
+    }
+
+    .corpo2 header {
+        margin: 1%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        background-color: rebeccapurple;
     }
 </style>
 
@@ -51,8 +117,39 @@
         </nav>
     </section>
 
+    <section class="atributos">
+        <ul>
+            <li><a href="" class="inicio">Início</a></li>
+            <li><a href="" class="blog">Blog</a></li>
+            <li><a href="" class="cursos">Cursos</a></li>
+        </ul>
+    </section>
+
     <section class="corpo">
-        <p>   </p>
+        <header>
+            <h2>O HTML</h2>
+        </header>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias optio autem nulla natus numquam temporibus
+            suscipit molestiae velit totam nam.</p>
+        <a href="#">saiba mais</a>
+    </section>
+
+    <section class="corpo1">
+        <header>
+            <h2>O HTML</h2>
+        </header>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias optio autem nulla natus numquam temporibus
+            suscipit molestiae velit totam nam.</p>
+        <a href="#">saiba mais</a>
+    </section>
+
+    <section class="corpo2">
+        <header>
+            <h2>O HTML</h2>
+        </header>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias optio autem nulla natus numquam temporibus
+            suscipit molestiae velit totam nam.</p>
+        <a href="#">saiba mais</a>
     </section>
 </body>
 
