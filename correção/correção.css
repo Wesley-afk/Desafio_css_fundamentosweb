@@ -20,10 +20,17 @@ body {
 }
 
 .hero-content h1 {
-  font-size: 50px;
+  font-size: 40px;
   text-shadow: 1px 1px 1px black; /*Colocando sombras no meu h1. Os valores inseridos que são positivos caminham para a direita, e os valores inseridos que são negativos caminham para a esquerda da fonte*/
+  text-transform: uppercase;
 }
 
 .hero-content p{
-  background-color: rgba(red, green, blue, alpha); /*Com o rgba nós fazemos a tranparência da fonte, com o índice de transparência, o último*/
+  background-color: rgba(0, 0, 0, 0.7); /*Com o rgba nós fazemos a tranparência da fonte, com o índice de transparência, o último*/
+  /*Temos 3 cores no spectro do rgb, o vermelho, verde e azul. E apartir deles, inserimos as variações sendo de 0 a 255.
+  O nível de tranparência (alpha) varia de 0 a 1*/
+  font-size: 18px;
+  display: inline-block; /*Deixa os elementos na mesma linha*/
+  padding: 16px;
+  border-bottom: 2px solid white;
 }
