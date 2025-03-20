@@ -1,9 +1,29 @@
-body{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ccc;
+body {
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase; /*O jeito correto de se escrever no html é com letras minúsculas, isso por que quando o narrador de tela for ler o que está digitado ele vai ler como uma sigla, caso esteja digitado como maísculo*/
+  background-color: #ccc;
 }
 
-.hero{
-    background-image: url(../imagens/bg-4.jpg)
+.hero {
+  background-image: url(../imagens/bg-4.jpg);
+  height: 500px;
+  background-size: cover; /*A cover se ajusta automáticamente sem se duplicar*/
+  background-position: right center;
+}
+
+.hero-content {
+  margin-top: 50px auto 0;
+  width: 80%;
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  text-shadow: 1px 1px 1px black; /*Colocando sombras no meu h1. Os valores inseridos que são positivos caminham para a direita, e os valores inseridos que são negativos caminham para a esquerda da fonte*/
+}
+
+.hero-content p{
+  background-color: rgba(red, green, blue, alpha); /*Com o rgba nós fazemos a tranparência da fonte, com o índice de transparência, o último*/
 }
